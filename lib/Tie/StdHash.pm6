@@ -1,6 +1,6 @@
-use v6.c;
+use v6.*;
 
-class Tie::StdHash:ver<0.0.6>:auth<cpan:ELIZABETH> {
+class Tie::StdHash:ver<0.0.7>:auth<cpan:ELIZABETH> {
 
     # Note that we *must* have an embedded Hash rather than just subclassing
     # from Hash, because .STORE on Hash has different semantics than the
@@ -30,13 +30,16 @@ class Tie::StdHash:ver<0.0.6>:auth<cpan:ELIZABETH> {
 
 =head1 NAME
 
-Tie::StdHash - Implement Perl's Tie::StdHash core module
+Raku port of Perl's Tie::StdHash module
 
 =head1 SYNOPSIS
 
   use Tie::StdHash;
 
 =head1 DESCRIPTION
+
+This module tries to mimic the behaviour of Perl's C<Tie::StdHash> module
+as closely as possible in the Raku Programming Language.
 
 Tie::StdHash is a module intended to be subclassed by classes using the
 L<P5tie|tie()> interface.  It uses the standard C<Hash> implementation as its
@@ -62,3 +65,5 @@ Re-imagined from Perl as part of the CPAN Butterfly Plan.
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod
+
+# vim: expandtab shiftwidth=4

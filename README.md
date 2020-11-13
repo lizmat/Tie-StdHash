@@ -1,7 +1,7 @@
 NAME
 ====
 
-Tie::StdHash - Implement Perl's Tie::StdHash core module
+Raku port of Perl's Tie::StdHash module
 
 SYNOPSIS
 ========
@@ -10,6 +10,8 @@ SYNOPSIS
 
 DESCRIPTION
 ===========
+
+This module tries to mimic the behaviour of Perl's `Tie::StdHash` module as closely as possible in the Raku Programming Language.
 
 Tie::StdHash is a module intended to be subclassed by classes using the [P5tie](tie()) interface. It uses the standard `Hash` implementation as its "backend".
 
