@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/Tie-StdHash/workflows/test/badge.svg)](https://github.com/lizmat/Tie-StdHash/actions)
+
 NAME
 ====
 
@@ -23,14 +25,14 @@ SEE ALSO
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/Tie-StdHash . Comments and Pull Requests are welcome.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
